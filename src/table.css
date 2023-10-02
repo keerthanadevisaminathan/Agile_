@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display:wght@900&family=Poppins:wght@00&display=swap');
@@ -82,4 +83,90 @@ table th {
 }
 .lkn:hover{
   transform: scale(1.1);
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display:wght@900&family=Poppins:wght@00&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lora:wght@500&family=Playfair+Display:wght@900&family=Poppins:wght@300&display=swap');
+
+body{
+    background-color: #d4d3c4;
+    padding: 20px 90px 80px 140px;
+    font-family: 'Poppins';
+    
+}
+table {
+  border-radius: 20px;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 20px 20px 20px 20px;
+  width: 1200px;
+  table-layout: fixed;
+  color: rgb(0, 0, 0);
+  backdrop-filter: blur(10px);
+  margin-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 105px;
+}
+
+table caption {
+  font-size: 30px;
+  margin: .5em 0 .75em;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+table tr {
+  padding: .35em;
+  border-radius: 25px;
+}
+table tr a{
+text-decoration: none;
+color: white;
+}
+table tr a:hover{
+  color: #929090;
+}
+table th{
+  padding: 1.600em;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: #c1bcbc;
+  font-size: 18px;
+  font-weight:600;
+  
+}
+table td {
+  padding: 1.600em;
+  text-align: center;
+  background-color: black;
+  color: #c1bcbc;
+  font-size: 18px;
+  font-weight:550;
+}
+
+table th {
+  font-size: 1.05em;
+  background-color:  rgb(0, 0, 0);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: 20px 20px 20px 20px;
+}
+.lkn{
+  text-decoration: none;
+  display: block;
+  width: 240px;
+  height: 33px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #d4d3c4;
+  border: 2px solid #d4d3c4;
+  border-radius: 8px;
+  padding-top: 12px;
+  text-align: center;
+  transition: 0.5s;
+}
+.lkn:hover{
+  transform: scale(1.1);
+>>>>>>> 98932fa1aaf2ee5338bdae0fd8e0aabb77b57dfe
 }

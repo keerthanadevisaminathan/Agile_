@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body{
@@ -60,4 +61,68 @@ input[type=tel] {
 button:hover{
     transform: scale(1.1);
     background-color: rgb(58, 57, 57);
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    background-color: #d4d3c4;
+}
+.inpform{
+    width: 280px;
+    height: 330px;
+    margin-top: 10%;
+    margin-left: 40%;
+    font-family: "Poppins";
+    background-color: #ffee00;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.inpform h1{
+    
+    font-size: 30px;
+    margin-left: 16%;
+}
+lable{
+    font-weight: 700;   
+}
+input[type=text]
+{
+    width: 230px;
+    height: 40px;
+    border-radius: 7px;
+}
+input[type=number]
+{
+    width: 230px;
+    height: 40px;
+    border-radius: 7px;
+}
+input[type=email]
+{
+    width: 230px;
+    height: 40px;
+    border-radius: 7px;
+}
+button{
+    width: 240px;
+    height: 50px;
+    color: #d4d3c4;
+    background-color: black;
+    border-radius: 7px;
+    border: 2px solid #d4d3c4;
+    font-weight: 550;
+    margin-top: 12%;
+    transition: 0.5s;
+}
+input[type=tel] {
+    width: 230px; 
+    height: 40px;
+    border-radius: 7px;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(58, 57, 57);
+>>>>>>> 98932fa1aaf2ee5338bdae0fd8e0aabb77b57dfe
 }
