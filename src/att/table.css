@@ -1,0 +1,129 @@
+.table-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid white;
+  /* max-width: 10000px; */
+  border-radius: 8px;
+  /* box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1); */
+}
+.my-button {
+  /* background-color: #ff9800;
+  color: #fff; */
+  border: none;
+  padding: 5px 3px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* .my-button:hover {
+    background-color:#001524;
+  } */
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+.align-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+/* tr:hover {
+    background-color: #e0e0e0;
+  } */
+
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.thestatesman.com/wp-content/uploads/2018/07/Doctors.jpg");
+  background-size: cover;
+  filter: blur(1px);
+}
+
+.text-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* color: white; */
+}
+
+.text-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 1.2rem;
+}
+tfoot {
+  font-weight: bold;
+  /* background-color: #f2f2f2; */
+}
+
+.image-container {
+  flex: 1;
+  position: relative;
+}
+
+.footer {
+  background-color: #001524;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: #001524;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+.nav-links li a:hover {
+  color: darkorange;
+  border-radius: 400px;
+}
